@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact · Trade Guides</title>
+  <meta name="description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India." />
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Contact · Trade Guides" />
+  <meta property="og:description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Trade Guides" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Contact · Trade Guides" />
+  <meta name="twitter:description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India." />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Trade Guides</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section style="margin-top:1rem;background:#fff;padding:1rem;border-radius:10px">
+      <h1>Contact Us</h1>
+      <p class="lead">Have a question or suggestion? Send us a message.</p>
+
+      <!-- This is a static form; to receive messages wire it to a backend or use a form service -->
+      <form action="#" method="POST" onsubmit="alert('This is a demo form. Hook up a backend to send messages.'); return false;">
+        <label>
+          Your name
+          <input type="text" name="name" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0;border-radius:6px;border:1px solid #dfe6ef">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0;border-radius:6px;border:1px solid #dfe6ef">
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0;border-radius:6px;border:1px solid #dfe6ef"></textarea>
+        </label>
+        <button type="submit" style="background:var(--accent);color:white;padding:.6rem 1rem;border-radius:8px;border:0;cursor:pointer">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">&copy; 2026 Trade Guides</div></footer>
+</body>
+</html>
