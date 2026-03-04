@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ravin7990.github.io/how_to_trade_gift_nifty_in_india/sitemap.xml
