@@ -3,59 +3,83 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact · Trade Guides</title>
-  <meta name="description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India." />
-  <meta name="robots" content="index, follow">
+  <title>Contact Trade Guides — Ask About Global Market Trading</title>
+  <meta name="description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India including Gift Nifty, Dow Futures, S&P 500 and more." />
+  <meta name="keywords" content="contact Trade Guides, trading questions India, global markets India help" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ravin7990.github.io/how_to_trade_gift_nifty_in_india/contact.html" />
 
   <meta property="og:title" content="Contact · Trade Guides" />
-  <meta property="og:description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India." />
+  <meta property="og:description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India including Gift Nifty, Dow Futures, S&P 500 and more." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ravin7990.github.io/how_to_trade_gift_nifty_in_india/contact.html" />
   <meta property="og:site_name" content="Trade Guides" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Contact · Trade Guides" />
-  <meta name="twitter:description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India." />
+  <meta name="twitter:description" content="Contact Trade Guides — send questions or suggestions about trading global markets from India including Gift Nifty, Dow Futures, S&P 500 and more." />
 
+  <link rel="icon" href="fevicon.png" type="image/png" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Trade Guides",
+    "url": "https://ravin7990.github.io/how_to_trade_gift_nifty_in_india/contact.html",
+    "publisher": { "@type": "Organization", "name": "Trade Guides", "url": "https://ravin7990.github.io/how_to_trade_gift_nifty_in_india/" }
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">Trade Guides</a>
-      <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" id="navToggle">☰</button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html" aria-current="page">Contact Us</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <section style="margin-top:1rem;background:#fff;padding:1rem;border-radius:10px">
+    <div class="page-box">
       <h1>Contact Us</h1>
-      <p class="lead">Have a question or suggestion? Send us a message.</p>
+      <p class="lead">Have a question, suggestion or feedback? Send us a message and we'll get back to you.</p>
 
-      <!-- This is a static form; to receive messages wire it to a backend or use a form service -->
-      <form action="#" method="POST" onsubmit="alert('This is a demo form. Hook up a backend to send messages.'); return false;">
-        <label>
-          Your name
-          <input type="text" name="name" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0;border-radius:6px;border:1px solid #dfe6ef">
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0;border-radius:6px;border:1px solid #dfe6ef">
-        </label>
-        <label>
-          Message
-          <textarea name="message" rows="6" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0;border-radius:6px;border:1px solid #dfe6ef"></textarea>
-        </label>
-        <button type="submit" style="background:var(--accent);color:white;padding:.6rem 1rem;border-radius:8px;border:0;cursor:pointer">Send message</button>
-      </form>
-    </section>
+      <div class="form-field">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Rahul Sharma" required />
+      </div>
+      <div class="form-field">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      </div>
+      <div class="form-field">
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Ask a question or leave a suggestion..." required></textarea>
+      </div>
+      <button type="button" class="btn-primary" onclick="alert('This is a demo form. To receive messages, connect this form to a backend service like Formspree or Netlify Forms.')">Send message</button>
+    </div>
   </main>
 
-  <footer class="site-footer"><div class="container">&copy; 2026 Trade Guides</div></footer>
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div>
+        <div class="footer-brand">Trade Guides <span>for Indian traders</span></div>
+        <p class="footer-copy" style="margin:0.35rem 0 0">&copy; 2026 Trade Guides. For educational purposes only. Trading involves substantial risk of loss.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
